@@ -1026,7 +1026,7 @@ function App() {
                                     {connectionType === 'local' ? '🏠 Local' : '🦊 MetaMask'} • {parseFloat(balance).toFixed(4)} ETH
                                 </div>
                                 <div style={{ fontSize: '13px', fontFamily: 'monospace', color: '#374151' }}>
-                                    {currentAccount.slice(0, 6)}...{currentAccount.slice(-4)} (Copy)
+                                    {currentAccount.slice(0, 6)}...{currentAccount.slice(-4)} 📋
                                 </div>
                             </div>
 
